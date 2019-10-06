@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tiles-component-client-side-solution",
+    "id": "dd97e40c-3b45-46b3-98c5-ffe889a50dff",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/tiles-component.sppkg"
+  }
+}

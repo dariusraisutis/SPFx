@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customTiles/CustomTilesWebPart.js",
+          "manifest": "./src/webparts/customTiles/CustomTilesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomTilesWebPartStrings": "lib/webparts/customTiles/loc/{locale}.js"
+  }
+}
